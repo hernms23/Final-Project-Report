@@ -3,3 +3,13 @@ Conventional centralized systems are susceptible to transaction history inaccura
 blockchain-based transaction system in which every transaction is stored in a block that is protected by cryptography. The system demonstrates the concepts of blockchain, 
 proof-of-work, and object-oriented architecture by enforcing rules for transaction validation, preserving historical ownership records, and preventing unauthorized or 
 fraudulent activity.
+
+Key Challenges Addressed:
+
+Securing transaction records against tampering
+
+Ensuring artifact provenance is verifiable
+
+Implementing proof-of-work mining for block validation
+
+Modeling stakeholders and ownership changes in a scalable, object-oriented manner
