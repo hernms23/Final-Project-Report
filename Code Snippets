@@ -1,0 +1,35 @@
+public void mineBlock(int prefix, ArrayList<Block> blockchain) {
+    String prefixString = "0".repeat(prefix);
+    if (hash == null) hash = calculateBlockHash();
+
+    while (!hash.startsWith(prefixString)) {
+        nonce++;
+        hash = calculateBlockHash();
+    }
+    System.out.print("Block mined! Nonce = " + nonce + " Hash = " + hash);
+}
+
+Implements block mining through nonce and SHA-256 hash-prefix 
+
+
+public String calculateBlockHash() {
+    String dataToHash = previousHash + Long.toString(timestamp) + Integer.toString(nonce) + data.toString();
+    MessageDigest digest = MessageDigest.getInstance("SHA-256");
+    byte[] bytes = digest.digest(dataToHash.getBytes(StandardCharsets.UTF_8));
+    StringBuilder buffer = new StringBuilder();
+    for (byte b : bytes) {
+        buffer.append(String.format("%02x", b));
+    }
+    return buffer.toString();
+}
+
+Calculates a unique has for each block to maintain integrity
+
+
+Stakeholder seller = new Stakeholder("S1", "Maximus Ambartsoumian", "111 Main St", 500000.0);
+Stakeholder buyer = new Stakeholder("B1", "Manuel Hernandez", "222 Fairview Dr", 10000000.0);
+
+Artifact artifact1 = new Artifact("A1", "Gladiator Armor", "Italy", seller);
+Transaction data1 = new Transaction(artifact1, LocalDateTime.of(2007, 1, 2, 0, 0), seller, buyer, Stakeholder.getAuctionHouse(), 5000.0);
+
+Models the object oriented transaction setup 
