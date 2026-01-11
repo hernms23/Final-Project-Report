@@ -1,4 +1,5 @@
 To avoid fraud, track provenance, and guarantee accountability in many digital and physical asset exchanges, keeping an open and unchangeable record of ownership is essential. 
-Conventional centralized systems are susceptible to transaction history inaccuracies, duplicate spending, and data manipulation. For artifacts, this project mimics a blockchain-based 
-transaction system in which every transaction is stored in a block that is protected by cryptography. The system demonstrates the concepts of blockchain, proof-of-work, 
-and object-oriented architecture by enforcing rules for transaction validation, preserving historical ownership records, and preventing unauthorized or fraudulent activity.
+Conventional centralized systems are susceptible to transaction history inaccuracies, duplicate spending, and data manipulation. For artifacts, this project mimics a 
+blockchain-based transaction system in which every transaction is stored in a block that is protected by cryptography. The system demonstrates the concepts of blockchain, 
+proof-of-work, and object-oriented architecture by enforcing rules for transaction validation, preserving historical ownership records, and preventing unauthorized or 
+fraudulent activity.
