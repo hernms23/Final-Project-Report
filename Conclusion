@@ -1,0 +1,6 @@
+Conclusion/Reflection:
+Technical Skills: Developed proficiency in Java programming, SHA-256 hashing, and algorithmic problem-solving. Learned to structure classes effectively to model stakeholders, artifacts, and transactions.
+Problem-Solving & Algorithms: Implemented proof-of-work mining and chain verification logic, which strengthened my understanding of computational thinking, iteration, and verification of data integrity.
+Software Design: Practiced modular and maintainable code design, improving readability, scalability, and testing within a complex simulation.
+Reflection on Challenges: One challenge was ensuring proper provenance checks and transaction validation without breaking the chain logic. Addressing this improved my ability to debug complex systems and enforce business rules programmatically.
+Professional Growth: This project strengthened my ability to translate theoretical concepts (blockchain, digital ledgers) into practical code, preparing me for more advanced software engineering and technical research tasks in future projects.
